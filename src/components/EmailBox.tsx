@@ -19,7 +19,7 @@ const EmailBox = () => {
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
         <button className="flex items-center gap-2 bg-white/10 border border-white/20 rounded-md px-4 py-2 hover:bg-white/20 transition">
           <Mail className="w-4 h-4" />
-          hello@tanimulislam.me
+          hello@tanimuldihan.me
         </button>
         <button className="flex items-center gap-2 bg-white/10 border border-white/20 rounded-md px-4 py-2 hover:bg-white/20 transition">
           <Calendar className="w-4 h-4" />

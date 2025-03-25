@@ -10,7 +10,7 @@ const Hero = () => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("hello@tanimulislam.me");
+    navigator.clipboard.writeText("hello@tanimuldihan.me");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000); // Reset after 2s
   };
