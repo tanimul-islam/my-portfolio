@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Calendar, Linkedin, Github, Twitter, Code } from "lucide-react";
+import { Mail, Calendar } from "lucide-react";
 
 const EmailBox = () => {
   return (
