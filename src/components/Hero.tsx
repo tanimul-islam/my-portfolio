@@ -6,7 +6,7 @@ import EmailBox from "./EmailBox"; // Assuming EmailBox is the popup contact com
 
 const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
