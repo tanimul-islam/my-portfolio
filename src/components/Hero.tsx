@@ -35,7 +35,7 @@ const Hero = () => {
             Hello, I&apos;m Tanimul Islam
             <div className="px-2">
               <Image
-                src="/tanimul.jpeg"
+                src="/tanimul.JPEG"
                 alt="Tanimul Islam"
                 width={80}
                 height={80}
