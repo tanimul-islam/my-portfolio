@@ -18,19 +18,22 @@ const Hero = () => {
   return (
     <main className="relative h-screen w-full font-geistSans bg-[url('/bgBluredHero.avif')] bg-cover bg-center bg-no-repeat flex flex-col justify-center">
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Hero Content */}
-      <div className="relative z-20 mx-auto flex max-w-full flex-col items-center justify-center px-3 text-center">
-        <h1 className="animate-fadeInUp my-2 w-full text-4xl font-semibold text-zinc-100 opacity-90 md:text-5xl lg:text-6xl">
+      <div className="relative z-20 mx-auto flex  flex-col items-center justify-center px-3 text-center mt-20 top-3">
+        <h1 className="animate-fadeInUp my-2 w-full text-xl font-semibold text-zinc-100 opacity-90 md:text-3xl lg:text-5xl">
           Speed. Scalability. Simplicity.
           <br /> Your next web app{" "}
-          <span className="text-6xl font-romanesco font-normal bg-gradient-to-b from-zinc-700 via-zinc-200 to-zinc-50 bg-clip-text tracking-wide text-transparent">
+          <span
+            className="text-6xl font-romanesco font-normal bg-gradient-to-b from-zinc-700 via-zinc-200
+           to-zinc-50 bg-clip-text tracking-wide text-transparent"
+          >
             built right.
           </span>
         </h1>
 
-        <h2 className="animate-fadeInUp mt-4 mb-6 flex flex-col items-center justify-center text-xl text-zinc-400 sm:flex-row md:text-xl lg:text-2xl">
+        <h2 className="animate-fadeInUp mt-4 mb-6 flex flex-col items-center justify-center text-xl text-zinc-400 sm:flex-row md:text-lg lg:text-xl">
           <span className="flex items-center justify-center">
             Hello, I&apos;m Tanimul Islam
             <div className="px-2">
@@ -52,7 +55,9 @@ const Hero = () => {
       <div className="relative z-20 flex justify-between mt-6 mx-auto w-full max-w-[400px]">
         <button
           onClick={() => setIsModalOpen(true)}
-          className="group relative inline-flex cursor-pointer items-center justify-between overflow-hidden rounded-full border border-white/10 bg-white/10 py-2 pl-3 pr-1 text-base font-medium opacity-85 backdrop-blur-md transition-all hover:bg-transparent"
+          className="group relative inline-flex cursor-pointer items-center justify-between overflow-hidden 
+          rounded-full border border-white/10 bg-white/10 py-2 pl-3 pr-1 text-base font-medium 
+          opacity-85 backdrop-blur-md transition-all hover:bg-transparent"
         >
           <span className="z-10 px-3 text-white transition-colors duration-300 group-hover:text-black">
             Let&apos;s Connect
@@ -116,15 +121,15 @@ const Hero = () => {
       </div>
 
       {/* Bottom Curve */}
-      <div className="z-10 mt-10">
+      <div className="z-10 mt-10  ">
         <div
           className="animate-scaleIn pointer-events-none relative z-10 mx-auto -mt-24 h-72 w-screen max-w-[--breakpoint-2xl] 
-          overflow-hidden [mask-image:radial-gradient(50%_50%,white,transparent)] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_bottom_center,#8350e8,transparent_40%)] 
-          before:opacity-60"
+          overflow-hidden [mask-image:radial-gradient(80%_50%,white,transparent)] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_bottom_center,#8350e8,transparent_70%)] 
+          before:opacity-70"
         >
           <div
-            className="absolute top-1/2 -left-1/2 z-20 aspect-[1/0.7] w-[200%] rounded-[100%] border-t-4 border-t-[#ffffff] bg-[#0a0a0a] 
-            shadow-[inset_0_2px_20px_#fff,0_-10px_50px_1px_#ffffff6e]"
+            className="absolute top-1/2 -left-1/2 z-20 aspect-[1/1.25] w-[200%] rounded-[100%] border-t-4 border-t-[#ffffff] bg-[#0a0a0a]  
+            shadow-[inset_0_3px_20px_#fff,0_-10px_50px_1px_#ffffff6e] "
           />
         </div>
       </div>
