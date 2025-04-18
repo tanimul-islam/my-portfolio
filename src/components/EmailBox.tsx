@@ -21,10 +21,15 @@ const EmailBox = () => {
           <Mail className="w-4 h-4" />
           hello@tanimuldihan.me
         </button>
-        <button className="flex items-center gap-2 bg-white/10 border border-white/20 rounded-md px-4 py-2 hover:bg-white/20 transition">
+        <a
+          href="https://calendly.com/tanimul-i/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 bg-white/10 border border-white/20 rounded-md px-4 py-2 hover:bg-white/20 transition"
+        >
           <Calendar className="w-4 h-4" />
           Book a Call
-        </button>
+        </a>
       </div>
 
       {/* Divider */}

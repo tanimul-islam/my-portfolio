@@ -1,0 +1,30 @@
+// techStack.ts
+export const techStack = [
+  {
+    category: "Frontend",
+    skills: [
+      { name: "HTML", iconImport: "SiHtml5", color: "#E34F26" },
+      { name: "CSS", iconImport: "SiCss3", color: "#1572B6" },
+      { name: "JavaScript", iconImport: "SiJavascript", color: "#F7DF1E" },
+      { name: "TypeScript", iconImport: "SiTypescript", color: "#3178C6" },
+      { name: "React", iconImport: "SiReact", color: "#61DAFB" },
+      { name: "C++", iconImport: "SiCplusplus", color: "#00599C" },
+      { name: "Next.js", iconImport: "SiNextdotjs", color: "#ffffff" },
+      { name: "Tailwind CSS", iconImport: "SiTailwindcss", color: "#06B6D4" },
+      { name: "Framer Motion", iconImport: "SiFramer", color: "#FF5F5F" },
+      { name: "Shadcn", iconImport: "SiRadixui", color: "#ffffff" },
+      { name: "Node.js", iconImport: "SiNodedotjs", color: "#5FA04E" },
+      { name: "Express", iconImport: "SiExpress", color: "#ffffff" },
+      { name: "MongoDB", iconImport: "SiMongodb", color: "#47A248" },
+      { name: "MySQL", iconImport: "SiMysql", color: "#4479A1" },
+      { name: "PostgreSQL", iconImport: "SiPostgresql", color: "#4169e1" },
+      { name: "Prisma", iconImport: "SiPrisma", color: "#2D3748" },
+      { name: "Git", iconImport: "SiGit", color: "#F05032" },
+      { name: "GitHub", iconImport: "SiGithub", color: "#ffffff" },
+      { name: "Vercel", iconImport: "SiVercel", color: "#ffffff" },
+      { name: "Postman", iconImport: "SiPostman", color: "#FF6C37" },
+      { name: "Linux", iconImport: "SiLinux", color: "#FCC624" },
+      { name: "npm", iconImport: "SiNpm", color: "#FCC624" },
+    ],
+  },
+];
